@@ -1,0 +1,40 @@
+@import 'base.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.chart {
+    height: 550px;
+    margin: 5px auto;
+    width: 900px;
+}
+
+.node-name {
+    font-weight: bold;
+}
+
+.node {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 200px;
+    font-size: 1rem;
+}
+
+.node img {
+    margin-right: 10px;
+}
+
+.green {
+    background-color: #D3D3C7;
+}
+
+.blue {
+    background-color: #A2BDFD;
+}
