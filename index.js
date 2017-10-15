@@ -1,100 +1,153 @@
 const chart_config = {
     chart: {
         container: "#family-tree",
-        nodeAlign: "BOTTOM",
         connectors: {
-            type: 'step'
+            type: 'curve'
         },
+        scrollbar: "fancy",
         node: {
             HTMLclass: 'node'
         }
     },
     nodeStructure: {
         text: {
-            name: "Mark Hill",
-            title: "Chief executive officer",
-            contact: "Tel: 01 213 123 134",
+            name: "Carlos Saltijeral Treviño",
+            title: "Yo",
+            desc: "2000-presente"
         },
-        image: "../headshots/2.jpg",
+        image: "img/man.png",
+        HTMLclass: 'orange',
         children: [{
                 text: {
-                    name: "Joe Linux",
-                    title: "Chief Technology Officer",
+                    name: "Carlos Saltijeral Hernández",
+                    title: "Padre",
+                    desc: "1967-presente"
                 },
-                image: "../headshots/1.jpg",
-                HTMLclass: 'light-gray',
+                image: "img/man.png",
+                HTMLclass: 'orange',
                 children: [{
                         text: {
-                            name: "Ron Blomquist",
-                            title: "Chief Information Security Officer"
+                            name: "Mario Saltijeral Garza",
+                            title: "Abuelo",
+                            desc: "1967-presente"
                         },
-                        HTMLclass: 'light-gray',
-                        image: "../headshots/8.jpg"
+                        image: "img/man.png",
+                        HTMLclass: 'orange',
+                        children: [{
+                                text: {
+                                    name: "Carlos Saltijeral Sosa",
+                                    title: "Bisabuelo",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/man.png",
+                                HTMLclass: 'orange'
+                            },
+                            {
+                                text: {
+                                    name: "Cruz Garza Antúnez",
+                                    title: "Bisabuela",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/woman.png",
+                                HTMLclass: 'yellow'
+                            }
+                        ]
                     },
                     {
                         text: {
-                            name: "Michael Rubin",
-                            title: "Chief Innovation Officer",
-                            contact: "we@aregreat.com"
+                            name: "Martha Hernández",
+                            title: "Abuela",
+                            desc: "1967-presente"
                         },
-                        HTMLclass: 'light-gray',
-                        image: "../headshots/9.jpg"
+                        image: "img/woman.png",
+                        HTMLclass: 'yellow',
+                        children: [{
+                                text: {
+                                    name: "Jesus Hernández",
+                                    title: "Bisabuelo",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/man.png",
+                                HTMLclass: 'orange'
+                            },
+                            {
+                                text: {
+                                    name: "<tbd>",
+                                    title: "Bisabuela",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/woman.png",
+                                HTMLclass: 'yellow'
+                            }
+                        ]
                     }
                 ]
             },
             {
-                childrenDropLevel: 2,
                 text: {
-                    name: "Linda May",
-                    title: "Chief Business Officer",
+                    name: "Eida Treviño Llamas",
+                    title: "Madre",
+                    desc: "1971-presente"
                 },
-                HTMLclass: 'blue',
-                image: "../headshots/5.jpg",
+                image: "img/woman.png",
+                HTMLclass: 'yellow',
                 children: [{
                         text: {
-                            name: "Alice Lopez",
-                            title: "Chief Communications Officer"
+                            name: "Ricardo Treviño Mendiola",
+                            title: "Abuelo",
+                            desc: "1943-presente"
                         },
-                        HTMLclass: 'blue',
-                        image: "../headshots/7.jpg"
+                        image: "img/man.png",
+                        HTMLclass: 'orange',
+                        children: [{
+                                text: {
+                                    name: "Nabor Treviño",
+                                    title: "Bisabuelo",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/man.png",
+                                HTMLclass: 'orange'
+                            },
+                            {
+                                text: {
+                                    name: "<tbd>",
+                                    title: "Bisabuela",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/woman.png",
+                                HTMLclass: 'yellow'
+                            }
+                        ]
                     },
                     {
                         text: {
-                            name: "Mary Johnson",
-                            title: "Chief Brand Officer"
+                            name: "Alicia Llamas",
+                            title: "Abuela",
+                            desc: "1945-presente"
                         },
-                        HTMLclass: 'blue',
-                        image: "../headshots/4.jpg"
-                    },
-                    {
-                        text: {
-                            name: "Kirk Douglas",
-                            title: "Chief Business Development Officer"
-                        },
-                        HTMLclass: 'blue',
-                        image: "../headshots/11.jpg"
+                        image: "img/woman.png",
+                        HTMLclass: 'yellow',
+                        children: [{
+                                text: {
+                                    name: "<tbd>",
+                                    title: "Bisabuelo",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/man.png",
+                                HTMLclass: 'orange'
+                            },
+                            {
+                                text: {
+                                    name: "<tbd>",
+                                    title: "Bisabuela",
+                                    desc: "1967-presente"
+                                },
+                                image: "img/woman.png",
+                                HTMLclass: 'yellow'
+                            }
+                        ]
                     }
                 ]
-            },
-            {
-                text: {
-                    name: "John Green",
-                    title: "Chief accounting officer",
-                    contact: "Tel: 01 213 123 134",
-                },
-                HTMLclass: 'gray',
-                image: "../headshots/6.jpg",
-                children: [{
-                    text: {
-                        name: "Erica Reel",
-                        title: "Chief Customer Officer"
-                    },
-                    link: {
-                        href: "http://www.google.com"
-                    },
-                    HTMLclass: 'gray',
-                    image: "../headshots/10.jpg"
-                }]
             }
         ]
     }

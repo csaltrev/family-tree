@@ -7,9 +7,9 @@ html {
 }
 
 .chart {
-    height: 550px;
+    height: 100%;
     margin: 5px auto;
-    width: 900px;
+    width: 100%;
 }
 
 .node-name {
@@ -29,12 +29,14 @@ html {
 
 .node img {
     margin-right: 10px;
+    width: 64px;
+    height: 64px;
 }
 
-.green {
-    background-color: #D3D3C7;
+.yellow {
+    background-color: #E9C46A;
 }
 
-.blue {
-    background-color: #A2BDFD;
+.orange {
+    background-color: #E58F65;
 }
