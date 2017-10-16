@@ -17,12 +17,13 @@ html {
 }
 
 .node {
-    padding: 2px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+    padding: 8px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background-color: #ffffff;
-    border: 1px solid #000;
     width: 200px;
     font-size: 1rem;
 }

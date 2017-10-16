@@ -4,7 +4,6 @@ const chart_config = {
         connectors: {
             type: 'curve'
         },
-        scrollbar: "fancy",
         node: {
             HTMLclass: 'node'
         }
@@ -29,15 +28,14 @@ const chart_config = {
                         text: {
                             name: "Mario Saltijeral Garza",
                             title: "Abuelo",
-                            desc: "1967-presente"
+                            desc: "1938-2016"
                         },
                         image: "img/man.png",
                         HTMLclass: 'orange',
                         children: [{
                                 text: {
                                     name: "Carlos Saltijeral Sosa",
-                                    title: "Bisabuelo",
-                                    desc: "1967-presente"
+                                    title: "Bisabuelo"
                                 },
                                 image: "img/man.png",
                                 HTMLclass: 'orange'
@@ -45,8 +43,7 @@ const chart_config = {
                             {
                                 text: {
                                     name: "Cruz Garza Antúnez",
-                                    title: "Bisabuela",
-                                    desc: "1967-presente"
+                                    title: "Bisabuela"
                                 },
                                 image: "img/woman.png",
                                 HTMLclass: 'yellow'
@@ -57,24 +54,22 @@ const chart_config = {
                         text: {
                             name: "Martha Hernández",
                             title: "Abuela",
-                            desc: "1967-presente"
+                            desc: "1942-2009"
                         },
                         image: "img/woman.png",
                         HTMLclass: 'yellow',
                         children: [{
                                 text: {
-                                    name: "Jesus Hernández",
-                                    title: "Bisabuelo",
-                                    desc: "1967-presente"
+                                    name: "Jesus Hernández Pámanes",
+                                    title: "Bisabuelo"
                                 },
                                 image: "img/man.png",
                                 HTMLclass: 'orange'
                             },
                             {
                                 text: {
-                                    name: "<tbd>",
-                                    title: "Bisabuela",
-                                    desc: "1967-presente"
+                                    name: "Esperanza González Allende",
+                                    title: "Bisabuela"
                                 },
                                 image: "img/woman.png",
                                 HTMLclass: 'yellow'
@@ -101,18 +96,16 @@ const chart_config = {
                         HTMLclass: 'orange',
                         children: [{
                                 text: {
-                                    name: "Nabor Treviño",
-                                    title: "Bisabuelo",
-                                    desc: "1967-presente"
+                                    name: "Nabor Treviño Benavides",
+                                    title: "Bisabuelo"
                                 },
                                 image: "img/man.png",
                                 HTMLclass: 'orange'
                             },
                             {
                                 text: {
-                                    name: "<tbd>",
-                                    title: "Bisabuela",
-                                    desc: "1967-presente"
+                                    name: "Esthela Mendiola Lozano",
+                                    title: "Bisabuela"
                                 },
                                 image: "img/woman.png",
                                 HTMLclass: 'yellow'
@@ -121,26 +114,24 @@ const chart_config = {
                     },
                     {
                         text: {
-                            name: "Alicia Llamas",
+                            name: "Alicia Llamas Díaz-Couder",
                             title: "Abuela",
-                            desc: "1945-presente"
+                            desc: "1947-presente"
                         },
                         image: "img/woman.png",
                         HTMLclass: 'yellow',
                         children: [{
                                 text: {
-                                    name: "<tbd>",
-                                    title: "Bisabuelo",
-                                    desc: "1967-presente"
+                                    name: "Miguel Llamas del Hoyo",
+                                    title: "Bisabuelo"
                                 },
                                 image: "img/man.png",
                                 HTMLclass: 'orange'
                             },
                             {
                                 text: {
-                                    name: "<tbd>",
-                                    title: "Bisabuela",
-                                    desc: "1967-presente"
+                                    name: "Alicia Díaz-Couder Calero",
+                                    title: "Bisabuela"
                                 },
                                 image: "img/woman.png",
                                 HTMLclass: 'yellow'
