@@ -80,7 +80,7 @@ const chart_config = {
             },
             {
                 text: {
-                    name: "Eida Treviño Llamas",
+                    name: "Eida Alicia Treviño Llamas",
                     title: "Madre",
                     desc: "1971-presente"
                 },

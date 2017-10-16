@@ -41,3 +41,13 @@ html {
 .orange {
     background-color: #E58F65;
 }
+
+.motto {
+    text-align: center;
+    padding: 3rem;
+}
+
+.motto h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
